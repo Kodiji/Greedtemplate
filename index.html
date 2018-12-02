@@ -25,26 +25,43 @@
 		<link rel="stylesheet" href="vendor/fancybox-2.1.7/source/jquery.fancybox.min.css" />
 		<script type="text/javascript" src="vendor/fancybox-2.1.7/source/jquery.fancybox.pack.js"></script>
 		
+		<link rel="stylesheet" href="vendor/ui/buttons.css" />
+		
 		<link rel="stylesheet" href="style.css" />
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body>
 		
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					
-				</div>
-			</div>
-		</div>
+		
 		
 		
 		<a class="js_popup_window" href="#popup">Popup</a>
 		
-		<div id="popup">
-			
-			приет
-			
+		<div id="popup" class="mfp-hide popup_window form_block__wrap">
+			<form action="" method="POST">
+				<div class="form_block__title">
+					Форма без аякса
+				</div>
+				<div class="form_block__input_wrap">
+					<input type="text" class="form_block__input" />
+				</div>
+				<div class="form_block__input_wrap">
+					<input type="text" class="form_block__input" />
+				</div>
+				<div class="form_block__input_wrap">
+					<input type="text" class="form_block__input" />
+				</div>
+				<div class="row">
+					<div class="col-auto">
+						<button class="btn btn-primary" type="submit">
+							Отправить
+						</button>
+					</div>
+					<div class="col">
+						<a href="#" class="btn btn-primary btn-block">Закрыть</a>
+					</div>
+				</div>
+			</form>		
 		</div>
 		
 	</body>
