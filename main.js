@@ -13,7 +13,7 @@ $(document).ready(function (){
 		preloader: false,
 
 		midClick: true,
-		removalDelay: 300,
+		removalDelay: 0,
 		mainClass: 'my-mfp-zoom-in'
 	});
 	
@@ -29,7 +29,7 @@ $(document).ready(function (){
 		preloader: false,
 
 		midClick: true,
-		removalDelay: 300,
+		removalDelay: 0,
 		mainClass: 'my-mfp-zoom-in'
 	});
 	
